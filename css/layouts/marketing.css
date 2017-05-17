@@ -200,6 +200,38 @@ white-space:normal;
 .teamMemberImage {
     width:99%;
 }
+.productDisplay a{
+    color:inherit;
+}
+.product:hover{
+  background:linear-gradient(Cyan,white);
+}
+.product h3{
+    text-transform:uppercase;
+    
+}
+.product img{
+    width:100%;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.product ul{
+    
+ list-style-type:none;   
+padding:0;
+}
+.product li {
+    padding:5px;
+}
+.product{
+    display:inline-block;
+    width:30%;
+    height:90%;
+    margin:5px;
+    padding:5px;
+    background:linear-gradient(LightCyan,white,LightCyan) lightCyan;
+    min-width:150px;
+    max-width:500px;
+}
 
 /*
  * -- CONTENT STYLES --
@@ -246,6 +278,10 @@ white-space:normal;
 /* This is the class used for the footer */
 .footer {
     background: #111;
+}
+.footer a{
+    text-decoration:none;
+    
 }
 
 /*
